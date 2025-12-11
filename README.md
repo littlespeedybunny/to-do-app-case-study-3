@@ -4,12 +4,24 @@ Spatial glass efektleri ve modern UI/UX tasarımına sahip, günlük notlar ve g
 
 ## 📱 Ekran Görüntüleri
 
-<div align="center">
-  <img src="screenshots/1.png" width="250" alt="Ekran Görüntüsü 1" />
-  <img src="screenshots/2.png" width="250" alt="Ekran Görüntüsü 2" />
-  <img src="screenshots/3.png" width="250" alt="Ekran Görüntüsü 3" />
-  <img src="screenshots/4.png" width="250" alt="Ekran Görüntüsü 4" />
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/1.png" width="200" alt="Ekran Görüntüsü 1" />
+    </td>
+    <td align="center">
+      <img src="screenshots/2.png" width="200" alt="Ekran Görüntüsü 2" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/3.png" width="200" alt="Ekran Görüntüsü 3" />
+    </td>
+    <td align="center">
+      <img src="screenshots/4.png" width="200" alt="Ekran Görüntüsü 4" />
+    </td>
+  </tr>
+</table>
 
 ## ✨ Özellikler
 
@@ -183,4 +195,3 @@ Bu proje bir case study olarak oluşturulmuştur.
 ---
 
 Flutter ile ❤️ ile oluşturuldu
-# to-do-app-case-study-3
