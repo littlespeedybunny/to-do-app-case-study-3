@@ -1,0 +1,144 @@
+{
+  "@@locale": "en",
+  "appTitle": "Daily Notes & Tasks",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "appTitleShort": "Notes & Tasks",
+  "@appTitleShort": {
+    "description": "Short application title"
+  },
+  "notes": "Notes",
+  "@notes": {
+    "description": "Notes section title"
+  },
+  "tasks": "Tasks",
+  "@tasks": {
+    "description": "Tasks section title"
+  },
+  "addNote": "Add Note",
+  "@addNote": {
+    "description": "Button text to add a new note"
+  },
+  "addTask": "Add Task",
+  "@addTask": {
+    "description": "Button text to add a new task"
+  },
+  "noteTitle": "Title",
+  "@noteTitle": {
+    "description": "Note title field label"
+  },
+  "noteContent": "Content",
+  "@noteContent": {
+    "description": "Note content field label"
+  },
+  "taskTitle": "Task Title",
+  "@taskTitle": {
+    "description": "Task title field label"
+  },
+  "category": "Category",
+  "@category": {
+    "description": "Category field label"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button text"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search placeholder text"
+  },
+  "noNotes": "No notes yet",
+  "@noNotes": {
+    "description": "Empty state message for notes"
+  },
+  "noTasks": "No tasks yet",
+  "@noTasks": {
+    "description": "Empty state message for tasks"
+  },
+  "completed": "Completed",
+  "@completed": {
+    "description": "Completed status label"
+  },
+  "pending": "Pending",
+  "@pending": {
+    "description": "Pending status label"
+  },
+  "personal": "Personal",
+  "@personal": {
+    "description": "Personal category"
+  },
+  "work": "Work",
+  "@work": {
+    "description": "Work category"
+  },
+  "school": "School",
+  "@school": {
+    "description": "School category"
+  },
+  "other": "Other",
+  "@other": {
+    "description": "Other category"
+  },
+  "lightTheme": "Light Theme",
+  "@lightTheme": {
+    "description": "Light theme label"
+  },
+  "darkTheme": "Dark Theme",
+  "@darkTheme": {
+    "description": "Dark theme label"
+  },
+  "searchNotes": "Search notes...",
+  "@searchNotes": {
+    "description": "Search notes placeholder"
+  },
+  "searchTasks": "Search tasks...",
+  "@searchTasks": {
+    "description": "Search tasks placeholder"
+  },
+  "all": "All",
+  "@all": {
+    "description": "All filter option"
+  },
+  "deleteNoteTitle": "Delete Note",
+  "@deleteNoteTitle": {
+    "description": "Delete note dialog title"
+  },
+  "deleteNoteMessage": "Are you sure you want to delete this note?",
+  "@deleteNoteMessage": {
+    "description": "Delete note confirmation message"
+  },
+  "deleteTaskTitle": "Delete Task",
+  "@deleteTaskTitle": {
+    "description": "Delete task dialog title"
+  },
+  "deleteTaskMessage": "Are you sure you want to delete this task?",
+  "@deleteTaskMessage": {
+    "description": "Delete task confirmation message"
+  },
+  "pleaseEnterTitle": "Please enter a title",
+  "@pleaseEnterTitle": {
+    "description": "Validation message for empty title"
+  },
+  "pleaseEnterTaskTitle": "Please enter a task title",
+  "@pleaseEnterTaskTitle": {
+    "description": "Validation message for empty task title"
+  },
+  "lightMode": "Light Mode",
+  "@lightMode": {
+    "description": "Light mode tooltip"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode tooltip"
+  }
+}
+
