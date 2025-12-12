@@ -127,23 +127,24 @@ class _SpatialPainter extends CustomPainter {
       );
     canvas.drawCircle(Offset(sunX, sunY), sunRadius, sunPaint);
 
-    // Clouds
-    _drawCloud(canvas, size.width * 0.2, size.height * 0.2, 0.8);
-    _drawCloud(canvas, size.width * 0.6, size.height * 0.3, 0.6);
-    _drawCloud(canvas, size.width * 0.4, size.height * 0.5, 0.7);
+    // Clouds - temporarily disabled
+    // _drawCloud(canvas, size.width * 0.2, size.height * 0.2, 0.8);
+    // _drawCloud(canvas, size.width * 0.6, size.height * 0.3, 0.6);
+    // _drawCloud(canvas, size.width * 0.4, size.height * 0.5, 0.7);
   }
 
-  void _drawCloud(Canvas canvas, double x, double y, double scale) {
-    final cloudPaint = Paint()
-      ..color = Colors.white.withOpacity(0.6)
-      ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 20);
-
-    final radius = 30.0 * scale;
-    canvas.drawCircle(Offset(x, y), radius, cloudPaint);
-    canvas.drawCircle(Offset(x + radius * 0.8, y), radius * 0.9, cloudPaint);
-    canvas.drawCircle(Offset(x - radius * 0.8, y), radius * 0.9, cloudPaint);
-    canvas.drawCircle(Offset(x, y - radius * 0.5), radius * 0.8, cloudPaint);
-  }
+  // Cloud drawing function - temporarily disabled
+  // void _drawCloud(Canvas canvas, double x, double y, double scale) {
+  //   final cloudPaint = Paint()
+  //     ..color = const Color.fromARGB(255, 49, 203, 254).withOpacity(0.85)
+  //     ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 15);
+  //
+  //   final radius = 30.0 * scale;
+  //   canvas.drawCircle(Offset(x, y), radius, cloudPaint);
+  //   canvas.drawCircle(Offset(x + radius * 0.8, y), radius * 0.9, cloudPaint);
+  //   canvas.drawCircle(Offset(x - radius * 0.8, y), radius * 0.9, cloudPaint);
+  //   canvas.drawCircle(Offset(x, y - radius * 0.5), radius * 0.8, cloudPaint);
+  // }
 
   void _paintDarkTheme(Canvas canvas, Size size) {
     // Dark gradient background
